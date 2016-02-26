@@ -1,0 +1,143 @@
+{
+	"ImportPath": "df-watcher",
+	"GoVersion": "go1.6",
+	"Deps": [
+		{
+			"ImportPath": "github.com/aws/aws-sdk-go/aws",
+			"Comment": "v1.1.5-2-gf3d9acd",
+			"Rev": "f3d9acd6d6b5dd65ca2cafadb45fff5f79dac525"
+		},
+		{
+			"ImportPath": "github.com/aws/aws-sdk-go/aws/awserr",
+			"Comment": "v1.1.5-2-gf3d9acd",
+			"Rev": "f3d9acd6d6b5dd65ca2cafadb45fff5f79dac525"
+		},
+		{
+			"ImportPath": "github.com/aws/aws-sdk-go/aws/awsutil",
+			"Comment": "v1.1.5-2-gf3d9acd",
+			"Rev": "f3d9acd6d6b5dd65ca2cafadb45fff5f79dac525"
+		},
+		{
+			"ImportPath": "github.com/aws/aws-sdk-go/aws/client",
+			"Comment": "v1.1.5-2-gf3d9acd",
+			"Rev": "f3d9acd6d6b5dd65ca2cafadb45fff5f79dac525"
+		},
+		{
+			"ImportPath": "github.com/aws/aws-sdk-go/aws/client/metadata",
+			"Comment": "v1.1.5-2-gf3d9acd",
+			"Rev": "f3d9acd6d6b5dd65ca2cafadb45fff5f79dac525"
+		},
+		{
+			"ImportPath": "github.com/aws/aws-sdk-go/aws/corehandlers",
+			"Comment": "v1.1.5-2-gf3d9acd",
+			"Rev": "f3d9acd6d6b5dd65ca2cafadb45fff5f79dac525"
+		},
+		{
+			"ImportPath": "github.com/aws/aws-sdk-go/aws/credentials",
+			"Comment": "v1.1.5-2-gf3d9acd",
+			"Rev": "f3d9acd6d6b5dd65ca2cafadb45fff5f79dac525"
+		},
+		{
+			"ImportPath": "github.com/aws/aws-sdk-go/aws/credentials/ec2rolecreds",
+			"Comment": "v1.1.5-2-gf3d9acd",
+			"Rev": "f3d9acd6d6b5dd65ca2cafadb45fff5f79dac525"
+		},
+		{
+			"ImportPath": "github.com/aws/aws-sdk-go/aws/defaults",
+			"Comment": "v1.1.5-2-gf3d9acd",
+			"Rev": "f3d9acd6d6b5dd65ca2cafadb45fff5f79dac525"
+		},
+		{
+			"ImportPath": "github.com/aws/aws-sdk-go/aws/ec2metadata",
+			"Comment": "v1.1.5-2-gf3d9acd",
+			"Rev": "f3d9acd6d6b5dd65ca2cafadb45fff5f79dac525"
+		},
+		{
+			"ImportPath": "github.com/aws/aws-sdk-go/aws/request",
+			"Comment": "v1.1.5-2-gf3d9acd",
+			"Rev": "f3d9acd6d6b5dd65ca2cafadb45fff5f79dac525"
+		},
+		{
+			"ImportPath": "github.com/aws/aws-sdk-go/aws/session",
+			"Comment": "v1.1.5-2-gf3d9acd",
+			"Rev": "f3d9acd6d6b5dd65ca2cafadb45fff5f79dac525"
+		},
+		{
+			"ImportPath": "github.com/aws/aws-sdk-go/private/endpoints",
+			"Comment": "v1.1.5-2-gf3d9acd",
+			"Rev": "f3d9acd6d6b5dd65ca2cafadb45fff5f79dac525"
+		},
+		{
+			"ImportPath": "github.com/aws/aws-sdk-go/private/protocol",
+			"Comment": "v1.1.5-2-gf3d9acd",
+			"Rev": "f3d9acd6d6b5dd65ca2cafadb45fff5f79dac525"
+		},
+		{
+			"ImportPath": "github.com/aws/aws-sdk-go/private/protocol/json/jsonutil",
+			"Comment": "v1.1.5-2-gf3d9acd",
+			"Rev": "f3d9acd6d6b5dd65ca2cafadb45fff5f79dac525"
+		},
+		{
+			"ImportPath": "github.com/aws/aws-sdk-go/private/protocol/jsonrpc",
+			"Comment": "v1.1.5-2-gf3d9acd",
+			"Rev": "f3d9acd6d6b5dd65ca2cafadb45fff5f79dac525"
+		},
+		{
+			"ImportPath": "github.com/aws/aws-sdk-go/private/protocol/rest",
+			"Comment": "v1.1.5-2-gf3d9acd",
+			"Rev": "f3d9acd6d6b5dd65ca2cafadb45fff5f79dac525"
+		},
+		{
+			"ImportPath": "github.com/aws/aws-sdk-go/private/signer/v4",
+			"Comment": "v1.1.5-2-gf3d9acd",
+			"Rev": "f3d9acd6d6b5dd65ca2cafadb45fff5f79dac525"
+		},
+		{
+			"ImportPath": "github.com/aws/aws-sdk-go/service/devicefarm",
+			"Comment": "v1.1.5-2-gf3d9acd",
+			"Rev": "f3d9acd6d6b5dd65ca2cafadb45fff5f79dac525"
+		},
+		{
+			"ImportPath": "github.com/gin-gonic/gin",
+			"Comment": "v1.0rc1-233-g00b10c3",
+			"Rev": "00b10c30a00cdba00ba288154052b9e29ec4d0bf"
+		},
+		{
+			"ImportPath": "github.com/gin-gonic/gin/binding",
+			"Comment": "v1.0rc1-233-g00b10c3",
+			"Rev": "00b10c30a00cdba00ba288154052b9e29ec4d0bf"
+		},
+		{
+			"ImportPath": "github.com/gin-gonic/gin/render",
+			"Comment": "v1.0rc1-233-g00b10c3",
+			"Rev": "00b10c30a00cdba00ba288154052b9e29ec4d0bf"
+		},
+		{
+			"ImportPath": "github.com/go-ini/ini",
+			"Comment": "v1.10.1",
+			"Rev": "776aa739ce9373377cd16f526cdf06cb4c89b40f"
+		},
+		{
+			"ImportPath": "github.com/golang/protobuf/proto",
+			"Rev": "45760678a2e5102a51433d40069dbc9ec5b26753"
+		},
+		{
+			"ImportPath": "github.com/jmespath/go-jmespath",
+			"Comment": "0.2.2-12-g0b12d6b",
+			"Rev": "0b12d6b521d83fc7f755e7cfc1b1fbdd35a01a74"
+		},
+		{
+			"ImportPath": "github.com/manucorporat/sse",
+			"Rev": "ee05b128a739a0fb76c7ebd3ae4810c1de808d6d"
+		},
+		{
+			"ImportPath": "golang.org/x/net/context",
+			"Rev": "6acef71eb69611914f7a30939ea9f6e194c78172"
+		},
+		{
+			"ImportPath": "gopkg.in/go-playground/validator.v8",
+			"Comment": "v8.17.1",
+			"Rev": "014792cf3e266caff1e916876be12282b33059e0"
+		}
+	]
+}
