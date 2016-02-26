@@ -14,7 +14,7 @@ var last_seen map[string]string
 func main() {
 	started := time.Now().String() // this app doesn't store anything, so it's handy to know how old this data is
 	last_seen = make(map[string]string)
-	go updateDevices()
+	go repeatedlyUpdateDevices()
 
 	r := gin.Default()
 	r.GET("/", func(c *gin.Context) {
@@ -24,6 +24,7 @@ func main() {
 }
 
 func repeatedlyUpdateDevices() {
+	updateDevices()
 	for range time.Tick(30 * time.Second) {
 		updateDevices()
 	}
