@@ -12,12 +12,13 @@ import (
 var last_seen map[string]string
 
 func main() {
+	started := time.Now().String() // this app doesn't store anything, so it's handy to know how old this data is
 	last_seen = make(map[string]string)
 	go updateDevices()
 
 	r := gin.Default()
 	r.GET("/", func(c *gin.Context) {
-		c.JSON(200, gin.H{"devices": last_seen})
+		c.JSON(200, gin.H{"started": started, "devices": last_seen})
 	})
 	r.Run()
 }
